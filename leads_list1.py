@@ -173,6 +173,11 @@ def main():
     # Display the selected table in wide mode
     df = pd.DataFrame(tables[table_selection])
     st.dataframe(df, width=1800)
+    
+     # Download button
+    csv = df.to_csv(index=False)
+    download_filename = f"{table_selection}_data.csv"
+    st.download_button("Download Data", data=csv, file_name=download_filename, mime='text/csv')
 
 if __name__ == '__main__':
     main()
