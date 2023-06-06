@@ -177,7 +177,7 @@ def main():
     activity_by_chain_selection = st.sidebar.selectbox('Activity by Chain', ['Active on Ethereum', 'Active on Polygon', 'Active on Arbitrum', 'Active on BNB', 'Active on Avalanche', 'All Others'])
 
     # Search for contact by address
-    search_address = st.sidebar.text_input('Search for Contact by Address')
+    search_address = st.sidebar.text_input('Search for Contact by Address', value='0x...')
 
     # Display the selected table in wide mode
     df = pd.DataFrame(tables[table_selection])
