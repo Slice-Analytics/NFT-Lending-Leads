@@ -161,7 +161,7 @@ def main():
     )
 
     # Title
-    st.markdown("<h1 style='text-align: center;'>Leads Lists by Sector</h1>", unsafe_allow_html=True)
+    st.markdown("<h1 style='text-align: center;'>Leads by Sector</h1>", unsafe_allow_html=True)
 
     # Add logo
     logo_path = 'slice_logo_clear.png'  # Replace with the path to your logo image
