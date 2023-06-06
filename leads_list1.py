@@ -169,6 +169,15 @@ def main():
 
     # Create a dropdown selector in the sidebar
     table_selection = st.sidebar.selectbox('Select Sector', list(tables.keys()))
+    
+    # Create a dropdown selector in the sidebar
+    wallet_value_selection = st.sidebar.selectbox('Wallet Value', ['Wallet Value over $10m', 'Wallet Value over $1m', 'Wallet Value over $100k', 'Wallet Value over $10k'])
+
+    # Create a dropdown selector in the sidebar
+    activity_by_chain_selection = st.sidebar.selectbox('Activity by Chain', ['Active on Ethereum', 'Active on Polygon', 'Active on Arbitrum', 'Active on BNB', 'Active on Avalanche', 'All Others'])
+
+    # Search for contact by address
+    search_address = st.sidebar.text_input('Search for Contact by Address')
 
     # Display the selected table in wide mode
     df = pd.DataFrame(tables[table_selection])
