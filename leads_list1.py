@@ -164,7 +164,7 @@ def main():
     st.title('Leads Lists by Sector')
 
         # Add logo
-    logo_path = 'slice_logo_clear.png'  # Replace with the path to your logo image
+    logo_path = 'Slice_logo_white.png'  # Replace with the path to your logo image
     st.sidebar.image(logo_path, use_column_width=True)
 
     # Create a dropdown selector in the sidebar
