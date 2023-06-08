@@ -17,7 +17,7 @@ tables = {
         'Email': ['N/A', 'N/A', 'Redacted', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A'],
         'Telegram': ['N/A', 'N/A', 'N/A', 'Redacted', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A']
     },
- 'Gambling Leads': {
+ 'Gambling Example Leads': {
         'Wallet/User': ['0x29ab82Ec552573b1B7d4933B2AaA3C568be9C6D1', '0xBE7CE5358977B00868C52045fb6c2790514efE68', '0xc9a648CF30D16079e48404F6Fd1Fd7Be83650C4d', '0xB5A16b3962BAcEB2CB292047333b58AaD1E060EE']*5,
         'Wallet Value (USD)': [1000, 500, 2000, 1500]*5,
         'Email': ['John33@gmail.com', 'Allenkjb@gmail.com', 'Opal@gmail.com', 'CryptoJacob@hotmail.com']*5,
@@ -30,7 +30,7 @@ tables = {
         'Last Transaction Date': ['2022-05-01', '2023-03-15', '2023-04-20', '2023-05-25']*5,
 
     },
-    'Liquidity Provider Leads': {
+    'Liquidity Provider Example Leads': {
         'Wallet/User': ['0x29ab82Ec552573b1B7d4933B2AaA3C568be9C6D1', '0xBE7CE5358977B00868C52045fb6c2790514efE68', '0xc9a648CF30D16079e48404F6Fd1Fd7Be83650C4d', '0xB5A16b3962BAcEB2CB292047333b58AaD1E060EE']*5,
         'Wallet Value (USD)': [1000, 500, 2000, 1500]*5,
         'Liquidity Provider Y/N': ['N', 'Y', 'N', 'Y']*5,
@@ -43,7 +43,7 @@ tables = {
         'Discord': ['John33#1234', 'Allenkjb#1234', 'Opal#1234', 'CryptoJacob#1234']*5,
         'linkedin': ['John33', 'Allenkjb', 'Opal', 'CryptoJacob']*5,
    },
-    'NFT Lending Users': {
+    'NFT Lending Example Leads': {
         'Wallet/User': ['0x' + ''.join(random.choices('0123456789ABCDEF', k=40)) for _ in range(20)],
         'Wallet Value (USD)': random.choices(range(1000, 5000), k=20),
         'Gambling User Y/N': random.choices(['N', 'Y'], k=20),
@@ -56,7 +56,7 @@ tables = {
         'Discord': ['emma12#5678', 'davidsmith23#5678', 'cryptoconnect#5678', 'johnnybrown#5678']*5,
         'LinkedIn': ['Emma Johnson', 'David Smith', 'Crypto Connect', 'Johnny Brown']*5
     },
-    'DEX Users': {
+    'DEX Users Example Leads': {
         'Wallet/User': ['0x' + ''.join(random.choices('0123456789ABCDEF', k=40)) for _ in range(20)],
         'Wallet Value (USD)': random.choices(range(1000, 5000), k=20),
         'Gambling User Y/N': random.choices(['N', 'Y'], k=20),
@@ -69,7 +69,7 @@ tables = {
         'Discord': ['John33#1234', 'Allenkjb#1234', 'Opal#1234', 'CryptoJacob#1234'] * 5,
         'linkedin': ['John33', 'Allenkjb', 'Opal', 'CryptoJacob'] * 5
     },
-    'Perpetual Traders': {
+    'Perpetual Traders Example Leads': {
         'Wallet/User': ['0x' + ''.join(random.choices('0123456789ABCDEF', k=40)) for _ in range(20)],
         'Wallet Value (USD)': random.choices(range(1000, 5000), k=20),
         'Gambling User Y/N': random.choices(['N', 'Y'], k=20),
