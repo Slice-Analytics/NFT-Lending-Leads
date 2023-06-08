@@ -5,7 +5,7 @@ import random
 
 # Define the tables
 tables = {
-  'GLP Holders + Binance Example Leads': {
+  'Arrel Example Leads': {
         'Wallet Address': ['0x016dbc709b8c1667d7205e2c4129167d660dc010', '0x26013b787aac632a92053f669e2de85103ad2536', '0xbc17b5a63fa8fdf28220546bc24b0beb10e2c80f', '0x92f3919d142000396205c613ecd2e428d91cf9220', '0x3615e04d0f21e2c7d2051e561ce8d4a5d0594ee7', '0x2465bd53a0e4f726d289bf059e07979715c44dc0b', '0xde58c7b2335c895c27471a6f237c78b066924370', '0xdc23d1367d84aad239913b8c8579c29e3707e309', '0x7706abe0d94e88760375dc3d0e997d5680324e38', '0xf9dbd46ec67dad89094fe788c29147e00fc25fe7', '0xa0553e045fda77d890741ffd5b58ae7cefdab379', '0xa0553e045fda77890e741ffd5b58ae7cefdab380', '0x016dbc709b8c1667d7205e2c4129167d660dc010', '0x26013b787aac632a92053f669e2de85103ad2536', '0x06a30395353d7d3742e49bf69fd25fdf69a131c8', '0xbc17b5a63fa8fdf28220546bc24b0beb10e2c80f', '0x3615e04d0f21e2c7d2051e561ce8d4a5d0594ee7', '0xbc17b5a63fa8fdf28220546bc24b0beb10e2c80f', '0x016dbc709b8c1667d7205e2c4129167d660dc010', '0xdc23d1367d84aad239913b8c8579c29e3707e309'],
         'GLP Held (USD Value)': ['$5,452.93', '$6,537.06', '$11,117.74', '$11,237.44', '$16,276.17', '$24,459.51', '$3,943.03', '$3,887.21', '$3,509.44', '$945,271.05', '$4,154.09', '$2,986.18', '$2,919.87', '$2,712.84', '$4,434.13', '$4,687.85', '$5,964.27', '$40,734.84', '$16,726.15', '$9,923.58'],
         'Wallet (USD Value)': ['$81,793.95', '$98,055.90', '$166,766.10', '$168,561.56', '$244,142.55', '$366,892.65', '$59,145.45', '$58,308.15', '$52,641.60', '$14,179,065.75', '$62,311.35', '$44,792.70', '$43,798.05', '$40,692.60', '$66,511.89', '$70,317.75', '$89,464.05', '$611,022.60', '$250,892.25', '$148,853.70'],
@@ -94,7 +94,7 @@ def main():
     )
 
     # Title
-    st.markdown("<h1 style='text-align: center;'>Leads by Sector</h1>", unsafe_allow_html=True)
+    st.markdown("<h1 style='text-align: center;'>GLP Holders + Binance Example Leads</h1>", unsafe_allow_html=True)
 
     # Add logo
     logo_path = 'slice_logo_clear.png'  # Replace with the path to your logo image
