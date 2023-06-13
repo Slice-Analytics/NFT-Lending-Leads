@@ -15,8 +15,9 @@ tables = {
         'Twitter': ['N/A', 'N/A', '***********', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A', 'Redacted', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A', 'Redacted', 'N/A', 'N/A', 'N/A'],
         'Discord': ['N/A', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A', 'Redacted', 'N/A', 'N/A', 'N/A'],
         'Email': ['N/A', 'N/A', 'Redacted', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A'],
-        'Telegram': ['N/A', 'N/A', 'N/A', 'Redacted', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A']
-    },
+        'Discord': ['N/A', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A', 'Redacted', 'N/A', 'N/A', 'N/A'],
+             
+  },
  'Gambling Example Leads': {
         'Wallet/User': ['0x29ab82Ec552573b1B7d4933B2AaA3C568be9C6D1', '0xBE7CE5358977B00868C52045fb6c2790514efE68', '0xc9a648CF30D16079e48404F6Fd1Fd7Be83650C4d', '0xB5A16b3962BAcEB2CB292047333b58AaD1E060EE']*5,
         'Wallet Value (USD)': [1000, 500, 2000, 1500]*5,
@@ -50,11 +51,11 @@ tables = {
         'Deposit Value': random.choices(range(100, 2000), k=20),
         'TLV': random.choices(range(1000, 5000), k=20),
         'Last Transaction Date': pd.date_range(start='2023-06-01', periods=20),
-        'Email': ['emma12@gmail.com', 'david.smith23@gmail.com', 'cryptoconnect@gmail.com', 'johnny.brown@gmail.com']*5,
-        'Twitter': ['@emma12', '@davidsmith23', '@cryptoconnect', '@johnnybrown']*5,
-        'Telegram': ['@emma12', '@davidsmith23', '@cryptoconnect', '@johnnybrown']*5,
-        'Discord': ['emma12#5678', 'davidsmith23#5678', 'cryptoconnect#5678', 'johnnybrown#5678']*5,
-        'LinkedIn': ['Emma Johnson', 'David Smith', 'Crypto Connect', 'Johnny Brown']*5
+        'Email': ['emma12@gmail.com', 'N/A', 'cryptoconnect@gmail.com', 'N/A']*5,
+        'Twitter': ['@emma12', '@davidsmith23', 'N/A', '@johnnybrown']*5,
+        'Telegram': ['N/A', '@davidsmith23', '@cryptoconnect', '@johnnybrown']*5,
+        'Discord': ['emma12#5678', 'N/A', 'N/A', 'johnnybrown#5678']*5,
+        'LinkedIn': ['N/A', 'David Smith', 'N/A', 'Johnny Brown']*5
     },
     'DEX Users Example Leads': {
         'Wallet/User': ['0x' + ''.join(random.choices('0123456789ABCDEF', k=40)) for _ in range(20)],
@@ -72,15 +73,17 @@ tables = {
     'Perpetual Traders Example Leads': {
         'Wallet/User': ['0x' + ''.join(random.choices('0123456789ABCDEF', k=40)) for _ in range(20)],
         'Wallet Value (USD)': random.choices(range(1000, 5000), k=20),
-        'Gambling User Y/N': random.choices(['N', 'Y'], k=20),
-        'Deposit Value': random.choices(range(100, 2000), k=20),
-        'TLV': random.choices(range(1000, 5000), k=20),
+        'Trades': random.choices(range(1, 5000), k=20),
+        'Volume': random.choices(range(100, 1000000000), k=20),
+        'Avg. Size': random.choices(range(1, 6000000), k=20),
+        'Fees': random.choices(range(1, 17000000), k=20),
+        'PnL': random.choices(range(-5000000, 5000000), k=20),
         'Last Transaction Date': pd.date_range(start='2023-06-01', periods=20),
-        'Email': ['John33@gmail.com', 'Allenkjb@gmail.com', 'Opal@gmail.com', 'CryptoJacob@hotmail.com'] * 5,
-        'Twitter': ['@John33', '@Allenkjb', '@Opal', '@CryptoJacob'] * 5,
-        'Telegram': ['@John33', '@Allenkjb', '@Opal', '@CryptoJacob'] * 5,
-        'Discord': ['John33#1234', 'Allenkjb#1234', 'Opal#1234', 'CryptoJacob#1234'] * 5,
-        'linkedin': ['John33', 'Allenkjb', 'Opal', 'CryptoJacob'] * 5
+        'Email': ['John33@gmail.com', 'N/A', 'Opal@gmail.com', 'CryptoJacob@hotmail.com'] * 5,
+        'Twitter': ['N/A', '@Allenkjb', '@Opal', '@CryptoJacob'] * 5,
+        'Telegram': ['@John33', 'N/A', 'N/A', '@CryptoJacob'] * 5,
+        'Discord': ['John33#1234', 'Allenkjb#1234', 'Opal#1234', 'N/A'] * 5,
+        'linkedin': ['N/A', 'N/A', 'Opal', 'CryptoJacob'] * 5
     }
 }
 
