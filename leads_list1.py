@@ -97,7 +97,7 @@ def main():
     )
 
     # Title
-    st.markdown("<h1 style='text-align: center;'>GLP Holders + Binance Example Leads</h1>", unsafe_allow_html=True)
+    st.markdown("<h1 style='text-align: center;'>Example Leads</h1>", unsafe_allow_html=True)
 
     # Add logo
     logo_path = 'slice_logo_clear.png'  # Replace with the path to your logo image
