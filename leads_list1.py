@@ -72,7 +72,7 @@ tables = {
     },
     'Perpetual Traders Example Leads': {
         'Wallet/User': ['0x' + ''.join(random.choices('0123456789ABCDEF', k=40)) for _ in range(20)],
-        'Wallet Value (USD)': random.choices(range(1000, 5000), k=20),
+        'Wallet Value (USD)': random.choices(range(1000, 10000000), k=20),
         'Trades': random.choices(range(1, 5000), k=20),
         'Volume': random.choices(range(100, 1000000000), k=20),
         'Avg. Size': random.choices(range(1, 6000000), k=20),
