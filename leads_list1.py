@@ -87,6 +87,31 @@ tables = {
     }
 }
 
+Metrics = {
+    'GLP + Binance Users': {
+        'Total Wallets': '$10',
+        'Life Time Value': '$2',
+        'Fees Generated': '$2',
+        'Trades Completed': '$2'
+    },
+    'Gambling Leads': {
+        'Total Wallets': '$10',
+        'Life Time Value': '$1',
+        'Fees Generated': '$1',
+        'Trades Completed': '$1'
+    },
+    'Liquidity Provider Leads': {     'Total Wallets': '$10',
+        'Life Time Value': '$1',
+        'Fees Generated': '$1',
+        'Trades Completed': '$1'
+    },  
+    'NFT Lending Users': {     'Total Wallets': '$10',    'Life Time Value': '$1',     'Fees Generated': '$1',     'Trades Completed': '$1'    },    
+    'DEX Users': {     'Total Wallets': '$10',     'Life Time Value': '$1',     'Fees Generated': '$1',     'Trades Completed': '$1'    },    
+    'Perpetual Traders': {     'Total Wallets': '$10',     'Life Time Value': '$1',     'Fees Generated': '$1',     'Trades Completed': '$1'}
+                                                                                                                                                                                                                                                                                                                        
+}
+
+
 def main():
     # Set page configuration
     st.set_page_config(
@@ -114,6 +139,15 @@ def main():
 
 #     # Search for contact by address
 #     search_address = st.sidebar.text_input('Search for Contact by Address', value='0x...')
+
+
+    cols_titles = ['Total Wallets', 'Life Time Value', 'Fees Generated', 'Trades Completed']
+    cols_data = [Metrics[table_selection]['Total Wallets'], Metrics[table_selection]['Life Time Value'], Metrics[table_selection]['Fees Generated'], Metrics[table_selection]['Trades Completed']   ]
+    cols = st.columns(len(cols_titles))
+
+    for i in range(len(cols_titles)):
+        with cols[i]:
+            st.metric(label=cols_titles[i], value=cols_data[i])
 
     # Display the selected table in wide mode
     df = pd.DataFrame(tables[table_selection])
