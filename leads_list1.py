@@ -88,26 +88,42 @@ tables = {
 }
 
 Metrics = {
-    'GLP + Binance Users': {
+    'Arrel Example Leads': {
         'Total Wallets': '$10',
         'Life Time Value': '$2',
         'Fees Generated': '$2',
         'Trades Completed': '$2'
     },
-    'Gambling Leads': {
+    'Gambling Example Leads': {
         'Total Wallets': '$10',
         'Life Time Value': '$1',
         'Fees Generated': '$1',
         'Trades Completed': '$1'
     },
-    'Liquidity Provider Leads': {     'Total Wallets': '$10',
+    'Liquidity Provider Example Leads': {     
+        'Total Wallets': '$10',
         'Life Time Value': '$1',
         'Fees Generated': '$1',
         'Trades Completed': '$1'
     },  
-    'NFT Lending Users': {     'Total Wallets': '$10',    'Life Time Value': '$1',     'Fees Generated': '$1',     'Trades Completed': '$1'    },    
-    'DEX Users': {     'Total Wallets': '$10',     'Life Time Value': '$1',     'Fees Generated': '$1',     'Trades Completed': '$1'    },    
-    'Perpetual Traders': {     'Total Wallets': '$10',     'Life Time Value': '$1',     'Fees Generated': '$1',     'Trades Completed': '$1'}
+    'NFT Lending Example Leads': {     
+        'Total Wallets': '$10',    
+        'Life Time Value': '$1',     
+        'Fees Generated': '$1',     
+        'Trades Completed': '$1'    
+    },    
+    'DEX Users Example Leads': {     
+        'Total Wallets': '$10',     
+        'Life Time Value': '$1',     
+        'Fees Generated': '$1',     
+        'Trades Completed': '$1'    
+        },    
+    'Perpetual Traders Example Leads': {     
+        'Total Wallets': '$10',     
+        'Life Time Value': '$1',     
+        'Fees Generated': '$1',     
+        'Trades Completed': '$1'
+    }
                                                                                                                                                                                                                                                                                                                         
 }
 
