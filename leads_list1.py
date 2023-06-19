@@ -89,40 +89,40 @@ tables = {
 
 Metrics = {
     'Arrel Example Leads': {
-        'Total Wallets': '$10',
-        'Life Time Value': '$2',
-        'Fees Generated': '$2',
-        'Trades Completed': '$2'
+        'Total Wallets Tracked': 'TBD',
+        'Leads Available': 'TBD',
+        'Fees Generated': 'TBD',
+        'Trades Completed': 'TBD'
     },
     'Gambling Example Leads': {
-        'Total Wallets': '$10',
-        'Life Time Value': '$1',
+        'Total Wallets Tracked': '1.4m',
+        'Leads Available': '27k',
         'Fees Generated': '$1',
         'Trades Completed': '$1'
     },
     'Liquidity Provider Example Leads': {     
-        'Total Wallets': '$10',
-        'Life Time Value': '$1',
-        'Fees Generated': '$1',
-        'Trades Completed': '$1'
+        'Total Wallets Tracked': 'TBD',
+        'Leads Available': 'TBD',
+        'Fees Generated': 'TBD',
+        'Trades Completed': 'TBD'
     },  
     'NFT Lending Example Leads': {     
-        'Total Wallets': '$10',    
-        'Life Time Value': '$1',     
-        'Fees Generated': '$1',     
-        'Trades Completed': '$1'    
+        'Total Wallets Tracked': 'TBD',    
+        'Leads Available': 'TBD',     
+        'Fees Generated': 'TBD',     
+        'Trades Completed': 'TBD'    
     },    
     'DEX Users Example Leads': {     
-        'Total Wallets': '$10',     
-        'Life Time Value': '$1',     
-        'Fees Generated': '$1',     
-        'Trades Completed': '$1'    
+        'Total Wallets Tracked': 'TBD',     
+        'Leads Available': 'TBD',     
+        'Fees Generated': 'TBD',     
+        'Trades Completed': 'TBD'    
         },    
     'Perpetual Traders Example Leads': {     
-        'Total Wallets': '$10',     
-        'Life Time Value': '$1',     
-        'Fees Generated': '$1',     
-        'Trades Completed': '$1'
+        'Total Wallets Tracked': '667,453',     
+        'Leads Available': '13,215',     
+        'Fees Generated': '$281m',     
+        'Volume': '$244m'
     }
                                                                                                                                                                                                                                                                                                                         
 }
