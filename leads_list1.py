@@ -158,7 +158,7 @@ def main():
 
 
     cols_titles = ['Total Wallets Tracked', 'Leads Available', 'Fees Generated', 'Trades Completed']
-    cols_data = [Metrics.get(table_selection,{}).get('Total Wallets Tracked','NA'), Metrics.get(table_selection,{}).get('Total Wallets Tracked','NA'), Metrics.get(table_selection,{}).get('Fees Generated','NA'), Metrics.get(table_selection,{}).get('Trades Completed','NA')]
+    cols_data = [Metrics.get(table_selection,{}).get('Total Wallets Tracked','NA'), Metrics.get(table_selection,{}).get('Leads Available','NA'), Metrics.get(table_selection,{}).get('Fees Generated','NA'), Metrics.get(table_selection,{}).get('Trades Completed','NA')]
     cols = st.columns(len(cols_titles))
 
     for i in range(len(cols_titles)):
