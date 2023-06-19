@@ -157,7 +157,7 @@ def main():
 #     search_address = st.sidebar.text_input('Search for Contact by Address', value='0x...')
 
 
-    cols_titles = ['Total Wallets', 'Life Time Value', 'Fees Generated', 'Trades Completed']
+    cols_titles = ['Total Wallets Tracked', 'Leads Available', 'Fees Generated', 'Trades Completed']
     cols_data = [Metrics.get(table_selection,{}).get('Total Wallets','NA'), Metrics.get(table_selection,{}).get('Life Time Value','NA'), Metrics.get(table_selection,{}).get('Fees Generated','NA'), Metrics.get(table_selection,{}).get('Trades Completed','NA')]
     cols = st.columns(len(cols_titles))
 
