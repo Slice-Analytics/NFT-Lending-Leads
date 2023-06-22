@@ -147,7 +147,7 @@ def main():
     # Set page configuration
     st.set_page_config(
         page_title='Leads by Slice Analytics',
-        page_icon='💰',
+        page_icon='📊',
         layout='wide',
         initial_sidebar_state='expanded'
     )
