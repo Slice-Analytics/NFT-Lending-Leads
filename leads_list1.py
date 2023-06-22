@@ -205,7 +205,7 @@ def main():
 
     
      #request_button = st.sidebar.button('Request Custom Leads List')
-    if st.sidebar.button('Request Custom Leads List'):
+    if st.sidebar.button('Need a Custom Dataset? Contact Us'):
         st.sidebar.markdown("[Click here to visit the website](https://www.sliceanalytics.xyz)")
     
 
